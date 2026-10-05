@@ -2,11 +2,11 @@
 
 Ağ trafiği verilerini analiz ederek siber saldırıları (DoS, Probe, R2L, U2R) tespit etmeye çalıştığım bir proje. Lojistik regresyon ve istatistiksel anomali analizi üzerine kurulu.
 
-## Ne yaptım
-1. Eksik değerleri kontrol ettim, kategorik değişkenleri Label Encoding ile sayısallaştırdım.
-2. Değişkenleri Z-skoru ile (StandardScaler) ölçeklendirdim.
-3. Önce Normal/Saldırı ayrımı için ikili bir lojistik regresyon kurdum — %96.44 doğruluk çıktı.
-4. Sonra saldırı türlerine göre çok sınıflı bir model kurdum, `class_weight='balanced'` ile dengesiz veri setini idare etmeye çalıştım.
+## Ne yaptık
+1. Eksik değerleri kontrol ettim, kategorik değişkenleri Label Encoding ile sayısallaştırdık.
+2. Değişkenleri Z-skoru ile (StandardScaler) ölçeklendirdik.
+3. Önce Normal/Saldırı ayrımı için ikili bir lojistik regresyon kurduk — %96.44 doğruluk çıktı.
+4. Sonra saldırı türlerine göre çok sınıflı bir model kurduk, `class_weight='balanced'` ile dengesiz veri setini idare etmeye çalıştık.
 
 ## Sonuçlar
 
@@ -36,3 +36,8 @@ Genel accuracy %98 ama bu sayı tek başına biraz yanıltıcı, çünkü sını
 
 ## Kullandıklarım
 Python, Pandas, Scikit-learn, Seaborn.
+##Katkıda bulunanlar 
+CANSU AYTEN(@ayten2004)
+ECEMNUR DUT (@ECEM-NUR-stat)
+ELİF NİSA İNANÇ (@inancnisa03-stack)
+
