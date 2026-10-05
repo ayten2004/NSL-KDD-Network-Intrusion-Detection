@@ -30,15 +30,19 @@ Ağ trafiği verilerini analiz ederek siber saldırıları (DoS, Probe, R2L, U2R
 | Macro avg | 0.76 | 0.89 | 0.80 | 25195 |
 | Weighted avg | 0.98 | 0.98 | 0.98 | 25195 |
 
+
 Genel accuracy %98 ama bu sayı tek başına biraz yanıltıcı, çünkü sınıflar arasında ciddi dengesizlik var. Asıl dikkat çekici olan R2L'de recall'un %98'e çıkması: nadir görülen bu saldırı türünü model neredeyse hiç kaçırmamış. U2R'de durum daha karışık — precision sadece 0.13, çünkü veri setinde yalnızca 11 örnek var ve bunlar normal trafiğe oldukça benziyor. Yine de `class_weight='balanced'` sayesinde bu 11 örneğin yarısından fazlasını (%55) doğru yakalamış. Yani model bir nevi temkinli: şüpheli bir şey gördüğünde "saldırı" demeyi tercih ediyor, ki güvenlik açısından yanlış negatiften daha iyi bir hata türü.
 
+
 ![Confusion Matrix](confusion_matrix.png)
+
 
 ## Kullandıklarım
 Python, Pandas, Scikit-learn, Seaborn.
 
 
 ## Katkıda Bulunanlar
+
 
 - [Cansu Ayten](https://github.com/ayten2004)
 - [Ecemnur Dut](https://github.com/ECEM-NUR-stat)
