@@ -1,6 +1,6 @@
 # NSL-KDD Network Intrusion Detection
 
-Ağ trafiği verilerini analiz edip siber saldırıları (DoS, Probe, R2L, U2R) tespit etmeye çalıştığım bir proje. Lojistik regresyon ve istatistiksel anomali analizi üzerine kurulu.
+Ağ trafiği verilerini analiz ederek siber saldırıları (DoS, Probe, R2L, U2R) tespit etmeye çalıştığım bir proje. Lojistik regresyon ve istatistiksel anomali analizi üzerine kurulu.
 
 ## Ne yaptım
 1. Eksik değerleri kontrol ettim, kategorik değişkenleri Label Encoding ile sayısallaştırdım.
