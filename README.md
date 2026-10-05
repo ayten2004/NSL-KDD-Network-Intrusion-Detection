@@ -1,4 +1,4 @@
-# NSL-KDD Network Intrusion Detection
+# NSL-KDD Network Intrusion Detection 
 
 Ağ trafiği verilerini analiz ederek siber saldırıları (DoS, Probe, R2L, U2R) tespit etmeye çalıştığım bir proje. Lojistik regresyon ve istatistiksel anomali analizi üzerine kurulu.
 
