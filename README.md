@@ -38,14 +38,15 @@ Genel accuracy %98 ama bu sayı tek başına biraz yanıltıcı, çünkü sını
 Python, Pandas, Scikit-learn, Seaborn.
 
 
+## Katkıda Bulunanlar
+
+- [Cansu Ayten](https://github.com/ayten2004)
+- [Ecemnur Dut](https://github.com/ECEM-NUR-stat)
+- [Elif Nisa İnanç](https://github.com/inancnisa03-stack)
 
 
 
 
 
 
-##Katkıda bulunanlar 
-CANSU AYTEN(@ayten2004)
-ECEMNUR DUT (@ECEM-NUR-stat)
-ELİF NİSA İNANÇ (@inancnisa03-stack)
 
